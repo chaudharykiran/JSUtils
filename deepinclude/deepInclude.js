@@ -1,3 +1,11 @@
+/**
+ * 
+ * @param {Array} dataList 
+ * @param {value} data 
+ * @param {key in array object} key 
+ * 
+ * @returns true is element is in array else false
+ */
 const deepInclude = (dataList, data, key) => {
 	let found = false;
 
